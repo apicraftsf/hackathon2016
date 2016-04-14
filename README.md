@@ -35,12 +35,14 @@ The Hackathon will take the following form:
 * Teams will get [one of the API toolsets](#api-toolsets) assigned to them.
   It's strongly suggested, but not mandatory that the team uses that toolset to
   complete the exercise.
-* Teams will attempt to improve, enhance and document the subject API in the
-  time available.
+* Teams will attempt to improve, enhance, and document the subject API in the
+  time available. This may include enhancing API structure and/or developer
+  experience in consuming and learning the API.
 * The scope of this exercise is the HTTP/REST API definition, documentation and
   prototype/mock only. A server or front-end implementation is neither
   required, nor expected. The API definition and documentation should be
-  checked in or linked to the hackathon's GitHub public repo.
+  checked in or linked to the hackathon's GitHub public repo (see the section
+  on submitting results below for more information).
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
