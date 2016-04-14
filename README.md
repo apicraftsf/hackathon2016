@@ -103,8 +103,10 @@ miscellaneous API design advice.
 
 ## Wi-fi
 
-GitHub has generously provided our venue and wi-fi. You can access it on the
-`GitHub Guest` network and using the password `ocotocat11`.
+GitHub has generously provided our venue and wi-fi. You can access it with:
+
+* Network: `GitHub Guest`
+* Password: `ocotocat11`.
 
 ## Slack
 
@@ -113,5 +115,8 @@ for announcements and discussion.
 
 ## Twitter
 
-If you're going to be tweeting about the event, please use the hash tags
-`#APIDesign` and/or `#APICraftSF`.
+If you're going to be tweeting about the event, please consider using the hash
+tags:
+
+* `#APICraftSF`
+* `#APIDesign`
