@@ -2,12 +2,16 @@
 
 Welcome to the API Craft SF hackathon for 2016 at GitHub!
 
-**Tables of Contents**
+**Table of Contents**
 
 * [Schedule](#schedule)
 * [Process](#process)
-* [Submitting Results](#submitting-results)
+    * [Submitting Results](#submitting-results)
 * [API Toolsets](#api-toolsets)
+* [Personnel](#personnel)
+* [Wi-fi](#wi-fi)
+* [Slack](#slack)
+* [Twitter](#twitter)
 
 ## Schedule
 
@@ -41,7 +45,7 @@ The Hackathon will take the following form:
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
 
-## Submitting Results
+### Submitting Results
 
 1. Fork this repository by clicking the **Fork** button in the upper right.
 2. Clone your fork and copy the submission template:
@@ -83,6 +87,31 @@ The Hackathon will take the following form:
 ## API Toolsets
 
 * [Apiary](https://apiary.io/)
+    * Technical advisement from [Z](https://github.com/zdne).
 * [Apigee-127](https://github.com/swagger-api/swagger-node)
+    * Technical advisement from [Diego Zuluaga](https://github.com/dzuluaga).
 * Mulesoft
+    * Technical advisement from [Michael Stowe](https://github.com/mikestowe).
 * [Smartbear SwaggerHub](https://swaggerhub.com/)
+
+## Personnel
+
+Your MC today is [Emmanuel Paraskakis](https://github.com/paraskakis).
+
+[Brandur Leach](https://github.com/brandur) will also be available to provide
+miscellaneous API design advice.
+
+## Wi-fi
+
+GitHub has generously provided our venue and wi-fi. You can access it on the
+`GitHub Guest` network and using the password `ocotocat11`.
+
+## Slack
+
+Please join [us on Slack](http://apicraftsf.slack.com/)! We will be using it
+for announcements and discussion.
+
+## Twitter
+
+If you're going to be tweeting about the event, please use the hash tags
+`#APIDesign` and/or `#APICraftSF`.
