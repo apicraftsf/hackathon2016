@@ -14,10 +14,10 @@ The event's schedule is as follows:
 
 * 10 AM: The event starts.
 * 12 PM: Lunch.
-* 4 PM: Presentations begin.
-* 5 PM: Wrap-up.
+* 3 PM: Presentations begin.
+* 4 PM: Wrap-up.
 
-We'll have to clear out of the venue by 6 PM.
+We'll have to clear out of the venue by 5 PM.
 
 ## Process
 
