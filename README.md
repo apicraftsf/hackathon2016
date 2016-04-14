@@ -2,12 +2,16 @@
 
 Welcome to the API Craft SF hackathon for 2016 at GitHub!
 
-**Tables of Contents**
+**Table of Contents**
 
 * [Schedule](#schedule)
 * [Process](#process)
-* [Submitting Results](#submitting-results)
+    * [Submitting Results](#submitting-results)
 * [API Toolsets](#api-toolsets)
+* [Personnel](#personnel)
+* [Wi-fi](#wi-fi)
+* [Slack](#slack)
+* [Twitter](#twitter)
 
 ## Schedule
 
@@ -31,17 +35,19 @@ The Hackathon will take the following form:
 * Teams will get [one of the API toolsets](#api-toolsets) assigned to them.
   It's strongly suggested, but not mandatory that the team uses that toolset to
   complete the exercise.
-* Teams will attempt to improve, enhance and document the subject API in the
-  time available.
+* Teams will attempt to improve, enhance, and document the subject API in the
+  time available. This may include enhancing API structure and/or developer
+  experience in consuming and learning the API.
 * The scope of this exercise is the HTTP/REST API definition, documentation and
   prototype/mock only. A server or front-end implementation is neither
   required, nor expected. The API definition and documentation should be
-  checked in or linked to the hackathon's GitHub public repo.
+  checked in or linked to the hackathon's GitHub public repo (see the section
+  on submitting results below for more information).
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
 
-## Submitting Results
+### Submitting Results
 
 1. Fork this repository by clicking the **Fork** button in the upper right.
 2. Clone your fork and copy the submission template:
@@ -83,6 +89,38 @@ The Hackathon will take the following form:
 ## API Toolsets
 
 * [Apiary](https://apiary.io/)
+    * Technical advisement from [Z](https://github.com/zdne).
 * [Apigee-127](https://github.com/swagger-api/swagger-node)
+    * Technical advisement from [Diego Zuluaga](https://github.com/dzuluaga).
 * Mulesoft
+    * Technical advisement from [Michael Stowe](https://github.com/mikestowe).
 * [Smartbear SwaggerHub](https://swaggerhub.com/)
+
+## Personnel
+
+Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
+
+Your MC today is [Mark Foster](https://github.com/fosrias).
+
+[Brandur Leach](https://github.com/brandur) will also be available to provide
+miscellaneous API design advice.
+
+## Wi-fi
+
+GitHub has generously provided our venue and wi-fi. You can access it with:
+
+* Network: `GitHub Guest`
+* Password: `ocotocat11`.
+
+## Slack
+
+Please join [us on Slack](http://apicraftsf.slack.com/)! We will be using it
+for announcements and discussion.
+
+## Twitter
+
+If you're going to be tweeting about the event, please consider using the hash
+tags:
+
+* `#APICraftSF`
+* `#APIDesign`
