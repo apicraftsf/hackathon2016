@@ -6,6 +6,7 @@ Welcome to the API Craft SF hackathon for 2016 at GitHub!
 
 * [Schedule](#schedule)
 * [Process](#process)
+* [Submitting Results](#submitting-results)
 * [API Toolsets](#api-toolsets)
 
 ## Schedule
@@ -39,6 +40,45 @@ The Hackathon will take the following form:
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
+
+## Submitting Results
+
+1. Fork this repository by clicking the **Fork** button in the upper right.
+2. Clone your fork and copy the submission template:
+
+    ``` sh
+    git clone https://github.com/your-user/hackathon2016.git
+
+    cd hackathon2016/results/
+
+    # Please use your assigned team name to name this directory!
+    mkdir team-a
+
+    cp README.md team-a/README.md
+    ```
+
+3. Add relevant information to the submission template.
+4. Create a branch and check in your results:
+
+    ``` sh
+    # create a new branch for your team
+    git checkout -b team-a
+
+    # add and commit results
+    #
+    # if you want to add an API specification here, great!
+    git add .
+    git commit -m "Adding results for team-a"
+
+    git push origin team-a
+    ```
+
+5. Go to your fork at https://github.com/your-user/hackathon2016 and find the
+   **New pull request** button for your branch just above where the
+   repository's file listing is located. Make sure that your team name
+   somewhere in the title of the pull and then open it. Please mention the
+   organizing team somewhere in the body with something like `/cc
+   @apicraftsf/hackathon2016`.
 
 ## API Toolsets
 
