@@ -96,7 +96,9 @@ The Hackathon will take the following form:
 
 ## Personnel
 
-Your MC today is [Emmanuel Paraskakis](https://github.com/paraskakis).
+Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
+
+Your MC today is [Mark Foster](https://github.com/fosrias).
 
 [Brandur Leach](https://github.com/brandur) will also be available to provide
 miscellaneous API design advice.
