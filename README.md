@@ -10,7 +10,6 @@ Welcome to the API Craft SF hackathon for 2016 at GitHub!
 * [Subject API](#subject-api)
 * [API Toolsets](#api-toolsets)
 * [Personnel](#personnel)
-* [Wi-fi](#wi-fi)
 * [Slack](#slack)
 * [Twitter](#twitter)
 
@@ -120,13 +119,6 @@ Your MC today is [Mark Foster](https://github.com/fosrias).
 
 [Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091) and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
 miscellaneous API design advice.
-
-## Wi-fi
-
-GitHub has generously provided our venue and wi-fi. You can access it with:
-
-* Network: `GitHub Guest`
-* Password: `ocotocat11`.
 
 ## Slack
 
