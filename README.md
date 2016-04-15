@@ -36,14 +36,14 @@ The Hackathon will take the following form:
 * Teams will get [one of the API toolsets](#api-toolsets) assigned to them.
   It's strongly suggested, but not mandatory, that the team uses that toolset to
   complete the exercise.
-* Teams will attempt to improve, enhance, and document the [subject API](#subject-api) in the
-  time available. This may include enhancing API structure and/or developer
-  experience in consuming and learning the API.
+* Teams will attempt to improve, enhance, and document the [subject
+  API](#subject-api) in the time available. This may include enhancing API
+  structure and/or developer experience in consuming and learning the API.
 * The scope of this exercise is the HTTP/REST API definition, documentation and
   prototype/mock only. A server or front-end implementation is neither
   required, nor expected. The API definition and documentation should be
   checked in or linked to the hackathon's GitHub public repo (see the section
-  on [submitting results](submitting-results) below for more information).
+  on [submitting results](#submitting-results) below for more information).
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
@@ -88,19 +88,22 @@ The Hackathon will take the following form:
    @apicraftsf/hackathon2016`.
 
 ## Subject API
+
 For this event we'll concentrate on the [GitHub Gist API](https://developer.github.com/v3/gists/)
-You can concentrate on either improving parts of the API Design itself (resources, methods, parameters) or on the Developer Experience (Documentation, Code examples, Mock/Sandbox).
+You can focus on either improving parts of the API Design itself (resources, methods, parameters) or on the developer experience (documentation, code examples, mock/sandbox, etc.).
+
 Here are some ideas as food for thought:
-* Describe part of the API in your assigned format so others can edit/modify it and documentation can be rendered
-* Improve the way editing (`PATCH`) a Gist works
-* Improve the way starring works
-* Change to a standard media type like [HAL](http://stateless.co/hal_specification.html)/[CJ](http://amundsen.com/media-types/collection/)/[Siren](https://github.com/kevinswiber/siren)
-* Add code examples in various languages (hint: look for an automated way)
-* Precise definition of parameters and request/response schemas
-* Define error conditions (see how DRY you can get with this)
-* Add Search functionality (Just to the API definition)
-* Create a mock or sandbox so consumers can play with the API (Can you use your API definition to drive this?)
-* Make links in responses more understandable, easier to use (Think Rels)
+
+* Describe part of the API in your assigned format so others can edit/modify it and documentation can be rendered.
+* Improve the way editing a Gist works (i.e. `PATCH`).
+* Improve the way starring works.
+* Change to a standard media type like [HAL](http://stateless.co/hal_specification.html), [CJ](http://amundsen.com/media-types/collection/), or [Siren](https://github.com/kevinswiber/siren).
+* Add code examples in various languages (hint: look for an automated way).
+* Precise definition of parameters and request/response schemas.
+* Define error conditions (see how DRY you can get with this).
+* Add search functionality (just to the API definition).
+* Create a mock or sandbox so consumers can play with the API (can you use your API definition to drive this?).
+* Make links in responses more understandable, easier to use (think `rel`s).
 
 ## API Toolsets
 
@@ -118,7 +121,7 @@ Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
 
 Your MC today is [Mark Foster](https://github.com/fosrias).
 
-[Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091) and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
+[Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091), and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
 miscellaneous API design advice.
 
 ## Slack
