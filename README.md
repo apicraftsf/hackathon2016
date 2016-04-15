@@ -12,6 +12,7 @@ Welcome to the API Craft SF hackathon for 2016 at GitHub!
 * [Personnel](#personnel)
 * [Slack](#slack)
 * [Twitter](#twitter)
+* [Sponsors](#sponsors)
 
 ## Schedule
 
@@ -132,3 +133,7 @@ tags:
 
 * `#APICraftSF`
 * `#APIDesign`
+
+## Sponsors
+* Huge thanks to [GitHub](https://github.com/) for providing this wonderful venue and sponsoring food and drinks for us!
+* Your stylish [API Craft San Francisco](http://www.meetup.com/API-Craft-San-Francisco/) T-shirt has been sponsored by [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/)
