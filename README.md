@@ -30,11 +30,11 @@ We'll have to clear out of the venue by 5 PM.
 The Hackathon will take the following form:
 
 * Participants will split up in teams of 4. Teams can self-organize as they
-  wish, but it's suggested they pick 1-2 team members to serve as "API
+  wish, but it's suggested you pick 1-2 team members to serve as "API
   Consumers" and the rest of the team to act as the "API Provider" (comprising
   backend developers, API owners, architects).
 * Teams will get [one of the API toolsets](#api-toolsets) assigned to them.
-  It's strongly suggested, but not mandatory that the team uses that toolset to
+  It's strongly suggested, but not mandatory, that the team uses that toolset to
   complete the exercise.
 * Teams will attempt to improve, enhance, and document the [subject API](#subject-api) in the
   time available. This may include enhancing API structure and/or developer
@@ -43,7 +43,7 @@ The Hackathon will take the following form:
   prototype/mock only. A server or front-end implementation is neither
   required, nor expected. The API definition and documentation should be
   checked in or linked to the hackathon's GitHub public repo (see the section
-  on submitting results below for more information).
+  on [submitting results](submitting-results) below for more information).
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
@@ -108,7 +108,7 @@ Here are some ideas as food for thought:
     * Technical advisement from [Z](https://github.com/zdne).
 * [Apigee-127](https://github.com/swagger-api/swagger-node)
     * Technical advisement from [Diego Zuluaga](https://github.com/dzuluaga).
-* Mulesoft
+* [Mulesoft](http://anypoint.mulesoft.com/)
     * Technical advisement from [Michael Stowe](https://github.com/mikestowe).
 * [Smartbear SwaggerHub](https://swaggerhub.com/)
 
