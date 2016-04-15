@@ -94,15 +94,17 @@ You can focus on either improving parts of the API Design itself (resources, met
 
 Here are some ideas as food for thought:
 
-* Describe part of the API in your assigned format so others can edit/modify it and documentation can be rendered.
+* Describe part of the API in your assigned format so others can edit/modify it
+  and documentation can be rendered.
 * Improve the way editing a Gist works (i.e. `PATCH`).
 * Improve the way starring works.
-* Change to a standard media type like [HAL](http://stateless.co/hal_specification.html), [CJ](http://amundsen.com/media-types/collection/), or [Siren](https://github.com/kevinswiber/siren).
+* Change to a standard media type like [HAL][hal], [CJ][cj], or [Siren][siren].
 * Add code examples in various languages (hint: look for an automated way).
 * Precise definition of parameters and request/response schemas.
 * Define error conditions (see how DRY you can get with this).
 * Add search functionality (just to the API definition).
-* Create a mock or sandbox so consumers can play with the API (can you use your API definition to drive this?).
+* Create a mock or sandbox so consumers can play with the API (can you use your
+  API definition to drive this?).
 * Make links in responses more understandable, easier to use (think `rel`s).
 
 ## API Toolsets
@@ -121,8 +123,11 @@ Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
 
 Your MC today is [Mark Foster](https://github.com/fosrias).
 
-[Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091), and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
-miscellaneous API design advice.
+These API design advisers will be available to provide advice:
+
+* [Brandur Leach](https://github.com/brandur)
+* [Neha Sondhi](https://github.com/neha3091)
+* [Mehdi Medjawi](https://github.com/Medjaw)
 
 ## Slack
 
@@ -138,5 +143,13 @@ tags:
 * `#APIDesign`
 
 ## Sponsors
-* Huge thanks to [GitHub](https://github.com/) for providing this wonderful venue and sponsoring food and drinks for us!
-* Your stylish [API Craft San Francisco](http://www.meetup.com/API-Craft-San-Francisco/) T-shirt has been sponsored by [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/)
+
+* Huge thanks to [GitHub](https://github.com/) for providing this wonderful
+  venue and sponsoring food and drinks for us!
+* Your stylish [API Craft San Francisco][meetup] T-shirt has been sponsored by
+  [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/)
+
+[cj]: http://amundsen.com/media-types/collection/
+[hal]: http://stateless.co/hal_specification.html
+[meetup]: http://www.meetup.com/API-Craft-San-Francisco/
+[siren]: https://github.com/kevinswiber/siren
