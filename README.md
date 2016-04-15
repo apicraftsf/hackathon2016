@@ -9,7 +9,6 @@ Welcome to the API Craft SF hackathon for 2016 at GitHub!
     * [Submitting Results](#submitting-results)
 * [API Toolsets](#api-toolsets)
 * [Personnel](#personnel)
-* [Wi-fi](#wi-fi)
 * [Slack](#slack)
 * [Twitter](#twitter)
 
@@ -104,13 +103,6 @@ Your MC today is [Mark Foster](https://github.com/fosrias).
 
 [Brandur Leach](https://github.com/brandur) will also be available to provide
 miscellaneous API design advice.
-
-## Wi-fi
-
-GitHub has generously provided our venue and wi-fi. You can access it with:
-
-* Network: `GitHub Guest`
-* Password: `ocotocat11`.
 
 ## Slack
 
