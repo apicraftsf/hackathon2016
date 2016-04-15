@@ -7,10 +7,12 @@ Welcome to the API Craft SF hackathon for 2016 at GitHub!
 * [Schedule](#schedule)
 * [Process](#process)
     * [Submitting Results](#submitting-results)
+* [Subject API](#subject-api)
 * [API Toolsets](#api-toolsets)
 * [Personnel](#personnel)
 * [Slack](#slack)
 * [Twitter](#twitter)
+* [Sponsors](#sponsors)
 
 ## Schedule
 
@@ -28,20 +30,20 @@ We'll have to clear out of the venue by 5 PM.
 The Hackathon will take the following form:
 
 * Participants will split up in teams of 4. Teams can self-organize as they
-  wish, but it's suggested they pick 1-2 team members to serve as "API
+  wish, but it's suggested you pick 1-2 team members to serve as "API
   Consumers" and the rest of the team to act as the "API Provider" (comprising
   backend developers, API owners, architects).
 * Teams will get [one of the API toolsets](#api-toolsets) assigned to them.
-  It's strongly suggested, but not mandatory that the team uses that toolset to
+  It's strongly suggested, but not mandatory, that the team uses that toolset to
   complete the exercise.
-* Teams will attempt to improve, enhance, and document the subject API in the
-  time available. This may include enhancing API structure and/or developer
-  experience in consuming and learning the API.
+* Teams will attempt to improve, enhance, and document the [subject
+  API](#subject-api) in the time available. This may include enhancing API
+  structure and/or developer experience in consuming and learning the API.
 * The scope of this exercise is the HTTP/REST API definition, documentation and
   prototype/mock only. A server or front-end implementation is neither
   required, nor expected. The API definition and documentation should be
   checked in or linked to the hackathon's GitHub public repo (see the section
-  on submitting results below for more information).
+  on [submitting results](#submitting-results) below for more information).
 * At the end of the allotted time, teams will elect one spokesperson to present
   their solution and one spokesperson to describe the process they used and
   feedback on the toolset used.
@@ -85,13 +87,31 @@ The Hackathon will take the following form:
    organizing team somewhere in the body with something like `/cc
    @apicraftsf/hackathon2016`.
 
+## Subject API
+
+For this event we'll concentrate on the [GitHub Gist API](https://developer.github.com/v3/gists/)
+You can focus on either improving parts of the API Design itself (resources, methods, parameters) or on the developer experience (documentation, code examples, mock/sandbox, etc.).
+
+Here are some ideas as food for thought:
+
+* Describe part of the API in your assigned format so others can edit/modify it and documentation can be rendered.
+* Improve the way editing a Gist works (i.e. `PATCH`).
+* Improve the way starring works.
+* Change to a standard media type like [HAL](http://stateless.co/hal_specification.html), [CJ](http://amundsen.com/media-types/collection/), or [Siren](https://github.com/kevinswiber/siren).
+* Add code examples in various languages (hint: look for an automated way).
+* Precise definition of parameters and request/response schemas.
+* Define error conditions (see how DRY you can get with this).
+* Add search functionality (just to the API definition).
+* Create a mock or sandbox so consumers can play with the API (can you use your API definition to drive this?).
+* Make links in responses more understandable, easier to use (think `rel`s).
+
 ## API Toolsets
 
 * [Apiary](https://apiary.io/)
     * Technical advisement from [Z](https://github.com/zdne).
 * [Apigee-127](https://github.com/swagger-api/swagger-node)
     * Technical advisement from [Diego Zuluaga](https://github.com/dzuluaga).
-* Mulesoft
+* [Mulesoft](http://anypoint.mulesoft.com/)
     * Technical advisement from [Michael Stowe](https://github.com/mikestowe).
 * [Smartbear SwaggerHub](https://swaggerhub.com/)
 
@@ -101,7 +121,7 @@ Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
 
 Your MC today is [Mark Foster](https://github.com/fosrias).
 
-[Brandur Leach](https://github.com/brandur) will also be available to provide
+[Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091), and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
 miscellaneous API design advice.
 
 ## Slack
@@ -116,3 +136,7 @@ tags:
 
 * `#APICraftSF`
 * `#APIDesign`
+
+## Sponsors
+* Huge thanks to [GitHub](https://github.com/) for providing this wonderful venue and sponsoring food and drinks for us!
+* Your stylish [API Craft San Francisco](http://www.meetup.com/API-Craft-San-Francisco/) T-shirt has been sponsored by [Apiary](https://apiary.io/) and [Mulesoft](https://www.mulesoft.com/)
