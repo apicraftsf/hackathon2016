@@ -118,7 +118,7 @@ Today's organizer is [Emmanuel Paraskakis](https://github.com/paraskakis)
 
 Your MC today is [Mark Foster](https://github.com/fosrias).
 
-[Brandur Leach](https://github.com/brandur) will also be available to provide
+[Brandur Leach](https://github.com/brandur), [Neha Sondhi](https://github.com/neha3091) and [Mehdi Medjawi](https://github.com/Medjaw) will be available to provide
 miscellaneous API design advice.
 
 ## Wi-fi
