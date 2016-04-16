@@ -72,6 +72,30 @@ paths:
           description: id of gist
           type: string
     
+  /gists:
+    x-swagger-router-controller: gists
+    get:
+      description: Gets all a user's gists
+      # used as the method name of the controller
+      operationId: gists
+      parameters:
+        - name: since
+          in: query
+          description: ISO 8601 in YYYY-MM-DDTHH:MM:SSZ format.  Only gists updated at or afer this time are return.
+          required: false
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/gists"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+            
   /swagger:
     x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
@@ -105,6 +129,7 @@ definitions:
             type: string
           user:
             type: string
+            
   GistRemoveStarResponse:
       type: "array"
       items:
@@ -119,7 +144,13 @@ definitions:
             type: string
           user:
             type: string
-
+            
+  gists:
+   required:
+     - message
+   properties:
+     message:
+       type: string
             
   ErrorResponse:
     required:
