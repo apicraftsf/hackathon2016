@@ -38,6 +38,39 @@ paths:
           description: Error
           schema:
             $ref: "#/definitions/ErrorResponse"
+
+  /gists/{id}/star:
+    x-swagger-router-controller: gists
+    delete:
+      summary: deletes a start
+      description: this will delete a star on a gist
+      operationId: removeStar
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/HelloWorldResponse"
+      parameters:
+         - in: path
+           name: id
+           required: true
+           description: id of gist
+           type: string
+    put:
+      summary: add a start
+      description: this will add a star on a gist
+      operationId: addStar
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/HelloWorldResponse"
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: id of gist
+          type: string
     
   /swagger:
     x-swagger-pipe: swagger_raw
