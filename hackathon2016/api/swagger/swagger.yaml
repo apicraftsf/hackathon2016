@@ -42,7 +42,7 @@ paths:
   /gists/{id}/star:
     x-swagger-router-controller: gists
     delete:
-      summary: deletes a start
+      summary: deletes a star
       description: this will delete a star on a gist
       operationId: removeStar
       responses:
@@ -57,7 +57,7 @@ paths:
            description: id of gist
            type: string
     put:
-      summary: add a start
+      summary: add a star
       description: this will add a star on a gist
       operationId: addStar
       responses:
