@@ -49,7 +49,7 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/HelloWorldResponse"
+            $ref: "#/definitions/GistRemoveStarResponse"
       parameters:
          - in: path
            name: id
@@ -64,7 +64,7 @@ paths:
         "200":
           description: Success
           schema:
-            $ref: "#/definitions/HelloWorldResponse"
+            $ref: "#/definitions/GistAddStarResponse"
       parameters:
         - in: path
           name: id
@@ -90,6 +90,37 @@ definitions:
           type: string
         user:
           $ref: "#/definitions/User"
+
+  GistAddStarResponse:
+      type: "array"
+      items:
+        required:
+          - url
+          - version
+          - user
+        properties:
+          url:
+            type: string
+          version:
+            type: string
+          user:
+            type: string
+  GistRemoveStarResponse:
+      type: "array"
+      items:
+        required:
+          - url
+          - version
+          - user
+        properties:
+          url:
+            type: string
+          version:
+            type: string
+          user:
+            type: string
+
+            
   ErrorResponse:
     required:
       - message
