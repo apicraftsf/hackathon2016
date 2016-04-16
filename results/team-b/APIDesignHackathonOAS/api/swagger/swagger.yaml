@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   version: "0.0.1"
-  title: Gist API
+  title: Hello World App
 # during dev, should point to your local machine
 host: localhost:10010
 # basePath prefixes all resource paths
@@ -18,33 +18,59 @@ consumes:
 produces:
   - application/json
 paths:
-  /hello:
-    # binds a127 app logic to a route
-    x-swagger-router-controller: hello_world
+  /gists/{id}/commits:
+    x-swagger-router-controller: gistCommits
     get:
-      description: Returns 'Hello' to the caller
-      # used as the method name of the controller
-      operationId: hello
+      description: Returns list of commits for a specified gist
+      operationId: listGistCommits
       parameters:
-        - name: name
-          in: query
-          description: The name of the person to whom to say hello
-          required: false
+        - name: id
+          in: path
+          description: Identifier of the gist for which to pull the list of commits
+          required: true
           type: string
       responses:
         "200":
           description: Success
           schema:
-            # a pointer to a definition
-            $ref: "#/definitions/HelloWorldResponse"
-        # responses may fall through to errors
+            $ref: "#/definitions/GistCommitsResponse"
         default:
           description: Error
           schema:
             $ref: "#/definitions/ErrorResponse"
-  /swagger:
-    x-swagger-pipe: swagger_raw
 
+  /gists/{id}/star:
+    x-swagger-router-controller: gists
+    delete:
+      summary: deletes a star
+      description: this will delete a star on a gist
+      operationId: removeStar
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/SuccessResponse"
+      parameters:
+         - in: path
+           name: id
+           required: true
+           description: id of gist
+           type: string
+    put:
+      summary: add a star
+      description: this will add a star on a gist
+      operationId: addStar
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/SuccessResponse"
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: id of gist
+          type: string
   /gists:
         # binds a127 app logic to a route
     x-swagger-router-controller: gists
@@ -58,11 +84,6 @@ paths:
           description: ISO 8601 in YYYY-MM-DDTHH:MM:SSZ format.  Only gists updated at or afer this time are return.
           required: false
           type: string
-        - name: username
-          in: query
-          description: username for whom you want to display his/her gist.
-          required: false
-          type: string
       responses:
         "200":
           description: Success
@@ -74,15 +95,33 @@ paths:
           description: Error
           schema:
             $ref: "#/definitions/ErrorResponse"
+  /swagger:
+    x-swagger-pipe: swagger_raw
 # complex objects have schema definitions
 definitions:
-  HelloWorldResponse:
+  GistCommitsResponse:
+    type: "array"
+    items:
+      required:
+        - url
+        - version
+        - user
+      properties:
+        url:
+          type: string
+        version:
+          type: string
+        user:
+          $ref: "#/definitions/User"
+
+  ErrorResponse:
     required:
       - message
     properties:
       message:
         type: string
-  ErrorResponse:
+
+  SuccessResponse:
     required:
       - message
     properties:
@@ -92,18 +131,14 @@ definitions:
     required:
       - message
     properties:
-      type: array
-      items:
-        type: "object"
-        properties:
-          url:
-            type: "string"
-    # properties:
-    #   type: "array"
-    #   items:
-    #     type: "object"
-    #     properties:
-    #       url:
-    #         type: "string"
-    #     required:
-    #       - "url"
+      message:
+        type: string
+  User:
+    required:
+      - login
+      - id
+    properties:
+      id:
+        type: number
+      login:
+        type: string
