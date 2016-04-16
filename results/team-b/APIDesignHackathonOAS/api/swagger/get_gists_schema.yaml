@@ -1,0 +1,26 @@
+  # type: "array"
+  # items:
+  #   type: "object"
+  #   properties:
+  #     url:
+  #       type: "string"
+  #     forks_url:
+  #       type: "string"
+  #     commits_url:
+  #       type: "string"
+  #     id:
+  #       type: "string"
+  #     description:
+  #       type: "string"
+  #     public:
+  #       type: "boolean"
+
+  #   required:
+  #     - "url"
+  #     - "forks_url"
+  #     - "commits_url"
+  #     - "id"
+  #     - "description"
+  #     - "public"
+  # required:
+  #   - "0"

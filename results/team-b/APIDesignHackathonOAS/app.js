@@ -2,6 +2,10 @@
 
 var SwaggerExpress = require('swagger-express-mw');
 var app = require('express')();
+var cors = require('cors');
+
+app.use(cors());
+
 module.exports = app; // for testing
 
 var config = {
