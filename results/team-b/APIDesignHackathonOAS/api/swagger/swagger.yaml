@@ -58,6 +58,11 @@ paths:
           description: ISO 8601 in YYYY-MM-DDTHH:MM:SSZ format.  Only gists updated at or afer this time are return.
           required: false
           type: string
+        - name: username
+          in: query
+          description: username for whom you want to display his/her gist.
+          required: false
+          type: string
       responses:
         "200":
           description: Success
@@ -87,11 +92,18 @@ definitions:
     required:
       - message
     properties:
-      message:
-        type: string
-  # ErrorResponse:
-  #   required:
-  #     - message
-  #   properties:
-  #     message:
-  #       type: string
+      type: array
+      items:
+        type: "object"
+        properties:
+          url:
+            type: "string"
+    # properties:
+    #   type: "array"
+    #   items:
+    #     type: "object"
+    #     properties:
+    #       url:
+    #         type: "string"
+    #     required:
+    #       - "url"
